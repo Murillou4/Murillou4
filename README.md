@@ -8,7 +8,7 @@
 </div>
 
 <p> 
-- 🌱 I’m currently learning Unity
+- 🌱 I’m currently learning Java
 </p>
 
 <div align="center">
