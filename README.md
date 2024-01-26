@@ -8,7 +8,7 @@
 </div>
 
 <p> 
-- 🌱 I’m currently learning Java
+- 🌱 I’m currently learning Flutter
 </p>
 
 <div align="center">
