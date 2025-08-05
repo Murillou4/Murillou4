@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
+import 'src/core/models/corrected_exam.dart';
 import 'src/core/repositories/correction_repository.dart';
 import 'src/core/services/omr_service.dart';
 import 'src/features/scanning/bloc/scanning_bloc.dart';
@@ -22,7 +23,7 @@ void main() async {
 class ExamCorrectionApp extends StatelessWidget {
   final CorrectionRepository repository;
 
-  const ExamCorrectionApp({
+  ExamCorrectionApp({
     super.key,
     required this.repository,
   });
@@ -59,7 +60,7 @@ class ExamCorrectionApp extends StatelessWidget {
     );
   }
 
-  late final GoRouter _router = GoRouter(
+  final GoRouter _router = GoRouter(
     initialLocation: '/',
     routes: [
       GoRoute(
@@ -86,7 +87,7 @@ class ExamCorrectionApp extends StatelessWidget {
         builder: (context, state) {
           final results = state.extra as List<dynamic>?;
           return BatchResultsScreen(
-            batchResults: results?[0] as List? ?? [],
+            batchResults: (results?[0] as List?)?.cast<CorrectedExam>() ?? [],
             batchStats: results?[1] as Map<String, dynamic>? ?? {},
           );
         },
