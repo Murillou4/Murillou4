@@ -129,7 +129,7 @@ class _ScanningScreenState extends State<ScanningScreen> {
                               }
                             });
                           }
-                        : null,
+                        : (capture) {}, // No-op callback instead of null
                   ),
                 
                 // Overlay
