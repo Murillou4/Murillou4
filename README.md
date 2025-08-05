@@ -1,33 +1,126 @@
-### 
+# Plataforma de Correção Automática de Provas
 
-<div align="center">
-<div>
- <img src="https://readme-typing-svg.herokuapp.com?color=%23DD6387&center=true&vCenter=true&lines=Hello!+I+am+Murillo+Castro!;Welcome+to+my+profile!" alt="Typing SVG">
-<br>
-  Back End Developer
-</div>
+## Visão Geral
 
-<p> 
-- 🌱 I’m currently learning Flutter
-</p>
+Sistema avançado de correção automática de provas objetivas que combina um backend .NET 10+ com aplicativo móvel Flutter e processamento de visão computacional OpenCV. A plataforma oferece funcionalidade offline-first com segurança baseada em QR codes assinados digitalmente.
 
-<div align="center">
-  <a href="https://github.com/Murillou4">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Murillou4&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Murillou4&layout=compact&langs_count=7&theme=dark"/>
-</div>
+## Arquitetura do Sistema
 
-  <div style="display: inline_block"><br>
-  <img align="center" alt="C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-  <img align="center" alt="C++" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-  <img align="center" alt="Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg%22%3E
-  <img align="center" alt="java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg%22%3E
-</div>
-  
- ##
-  
-<div>
-  
-   ![Snake animation](https://github.com/GustRib/GustRib/blob/output/github-contribution-grid-snake.svg)
- 
-</div>
+### Pilares Fundamentais
+
+- **Segurança por Design**: QR codes assinados digitalmente com JWT
+- **Resiliência Offline-First**: Funcionalidade completa sem internet
+- **Reconhecimento de Alta Fidelidade**: Pipeline OpenCV otimizado para OMR
+- **Escalabilidade**: Arquitetura modular preparada para expansões futuras
+
+### Estrutura do Projeto
+
+```
+/
+├── backend/           # API .NET 10+ para geração de materiais
+├── mobile_app/        # Aplicativo Flutter para correção
+├── docs/             # Documentação técnica
+└── README.md         # Este arquivo
+```
+
+## Backend (.NET 10+)
+
+### Funcionalidades Principais
+
+- **AssessmentService**: Gerenciamento de avaliações
+- **QrCodeService**: Geração de QR codes seguros
+- **SecurityService**: Operações criptográficas (JWT/RS256)
+- **Minimal APIs**: Endpoints otimizados para performance
+
+### Tecnologias Utilizadas
+
+- .NET 10 (LTS)
+- System.IdentityModel.Tokens.Jwt
+- Net.Codecrete.QrCodeGenerator
+- Minimal API pattern
+
+## Mobile App (Flutter)
+
+### Funcionalidades Principais
+
+- **Escaneamento de QR Code**: Validação criptográfica offline
+- **Processamento OMR**: Pipeline OpenCV para detecção de marcas
+- **Armazenamento Local**: Banco Hive para persistência offline
+- **Exportação Excel**: Relatórios profissionais com Syncfusion
+
+### Bibliotecas Principais
+
+- `mobile_scanner`: Escaneamento de QR codes
+- `hive_ce`: Banco de dados local
+- `syncfusion_flutter_xlsio`: Geração de Excel
+- `share_plus`: Compartilhamento de arquivos
+- OpenCV via FFI: Processamento de imagem
+
+## Fluxo de Trabalho
+
+1. **Geração**: Professor cria avaliação no backend
+2. **Impressão**: Folha OMR com QR code seguro é impressa
+3. **Escaneamento**: App móvel lê QR code e valida assinatura
+4. **Correção**: Pipeline OpenCV processa marcações
+5. **Resultados**: Notas calculadas e armazenadas localmente
+6. **Exportação**: Relatórios Excel profissionais gerados
+
+## Segurança
+
+- **JWT RS256**: Assinatura assimétrica para QR codes
+- **Validação Offline**: Chave pública embarcada no app
+- **Integridade**: Detecção de adulteração de dados
+- **Isolamento**: Chaves privadas protegidas no backend
+
+## Requisitos do Sistema
+
+### Backend
+- .NET 10+ SDK
+- Windows/Linux/macOS
+
+### Mobile App
+- Flutter 3.x
+- Android 8+ / iOS 12+
+- Câmera com foco automático
+
+## Instalação e Execução
+
+### Backend
+
+```bash
+cd backend
+dotnet restore
+dotnet run
+```
+
+### Mobile App
+
+```bash
+cd mobile_app
+flutter pub get
+flutter run
+```
+
+## Roadmap Futuro
+
+- [ ] Sincronização em nuvem
+- [ ] Painel web para análises
+- [ ] Análise de itens e estatísticas
+- [ ] Integração com sistemas acadêmicos
+- [ ] Suporte a múltiplos idiomas
+
+## Contribuição
+
+1. Fork o projeto
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Push para a branch
+5. Abra um Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
+
+## Contato
+
+Para dúvidas técnicas ou suporte, abra uma issue no repositório.
