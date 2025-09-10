@@ -1,126 +1,49 @@
-# Plataforma de Correção Automática de Provas
+<!-- pode rodar um banner ou arte ASCII aqui -->
+#  Opa, tu caiu no repositório do **Murillou4** — e não vai sair indiferente.
 
-## Visão Geral
+###  Quem diabos é esse cara?
+-  Suporte técnico no **TRT18**, dev por hobby e dev batch por vocação.
+-  Dois anos de Flutter na veia, agora mergulhando no backend com **Dart**.
+-  Em busca de outros venenos: **JavaScript**, **Java**, **C++** — pra aprender na marra.
 
-Sistema avançado de correção automática de provas objetivas que combina um backend .NET 10+ com aplicativo móvel Flutter e processamento de visão computacional OpenCV. A plataforma oferece funcionalidade offline-first com segurança baseada em QR codes assinados digitalmente.
+---
 
-## Arquitetura do Sistema
+###  Ferramentas que pego pesado:
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&style=for-the-badge)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&style=for-the-badge)
+![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&style=for-the-badge)
 
-### Pilares Fundamentais
+---
 
-- **Segurança por Design**: QR codes assinados digitalmente com JWT
-- **Resiliência Offline-First**: Funcionalidade completa sem internet
-- **Reconhecimento de Alta Fidelidade**: Pipeline OpenCV otimizado para OMR
-- **Escalabilidade**: Arquitetura modular preparada para expansões futuras
+###  Projetos que não me dão vergonha:
+- [Flutter App da RPC](https://github.com/Murillou4/flutter-rpc) — app prático de integração com backend Firebase.  
+- [Bot de suporte em Dart](https://github.com/Murillou4/dart-suporte-bot) — agilizando atendimento, porque preguiça de resposta manual dá prejuízo.  
+- *se tiver algo mais, coloque aqui — mas só o que gabaritar.*
 
-### Estrutura do Projeto
+---
 
-```
-/
-├── backend/           # API .NET 10+ para geração de materiais
-├── mobile_app/        # Aplicativo Flutter para correção
-├── docs/             # Documentação técnica
-└── README.md         # Este arquivo
-```
+###  Métricas que mostram na lata:
+![Stats](https://github-readme-stats.vercel.app/api?username=Murillou4&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Murillou4&layout=compact)
 
-## Backend (.NET 10+)
+*(Spoiler: vai mostrar que você manja das paradas e está presente.)*
 
-### Funcionalidades Principais
+---
 
-- **AssessmentService**: Gerenciamento de avaliações
-- **QrCodeService**: Geração de QR codes seguros
-- **SecurityService**: Operações criptográficas (JWT/RS256)
-- **Minimal APIs**: Endpoints otimizados para performance
+###  Mantendo o perfil atualizado, sem enrolação:
+<!-- Aqui dá pra colocar GIFs, links pro blog, contadores de visitas, playlists… usa o que quiser da lista lá em cima -->
 
-### Tecnologias Utilizadas
+---
 
-- .NET 10 (LTS)
-- System.IdentityModel.Tokens.Jwt
-- Net.Codecrete.QrCodeGenerator
-- Minimal API pattern
+###  Fala comigo:
+-  Twitter: [@Murillou4](https://twitter.com/Murillou4)  
+-  LinkedIn: [Murillo] (coloca o link aqui!)  
+-  Ou manda um email esperto pra: `murillou4@seuemail.com`
 
-## Mobile App (Flutter)
+---
 
-### Funcionalidades Principais
+**Resumo?**  
+Você não veio aqui por acaso. Tá vendo o que faço, como penso, e que não me contento em ficar no marasmo. É só apertar o follow ou mandar um “manda ver” que tá valendo.
 
-- **Escaneamento de QR Code**: Validação criptográfica offline
-- **Processamento OMR**: Pipeline OpenCV para detecção de marcas
-- **Armazenamento Local**: Banco Hive para persistência offline
-- **Exportação Excel**: Relatórios profissionais com Syncfusion
-
-### Bibliotecas Principais
-
-- `mobile_scanner`: Escaneamento de QR codes
-- `hive_ce`: Banco de dados local
-- `syncfusion_flutter_xlsio`: Geração de Excel
-- `share_plus`: Compartilhamento de arquivos
-- OpenCV via FFI: Processamento de imagem
-
-## Fluxo de Trabalho
-
-1. **Geração**: Professor cria avaliação no backend
-2. **Impressão**: Folha OMR com QR code seguro é impressa
-3. **Escaneamento**: App móvel lê QR code e valida assinatura
-4. **Correção**: Pipeline OpenCV processa marcações
-5. **Resultados**: Notas calculadas e armazenadas localmente
-6. **Exportação**: Relatórios Excel profissionais gerados
-
-## Segurança
-
-- **JWT RS256**: Assinatura assimétrica para QR codes
-- **Validação Offline**: Chave pública embarcada no app
-- **Integridade**: Detecção de adulteração de dados
-- **Isolamento**: Chaves privadas protegidas no backend
-
-## Requisitos do Sistema
-
-### Backend
-- .NET 10+ SDK
-- Windows/Linux/macOS
-
-### Mobile App
-- Flutter 3.x
-- Android 8+ / iOS 12+
-- Câmera com foco automático
-
-## Instalação e Execução
-
-### Backend
-
-```bash
-cd backend
-dotnet restore
-dotnet run
-```
-
-### Mobile App
-
-```bash
-cd mobile_app
-flutter pub get
-flutter run
-```
-
-## Roadmap Futuro
-
-- [ ] Sincronização em nuvem
-- [ ] Painel web para análises
-- [ ] Análise de itens e estatísticas
-- [ ] Integração com sistemas acadêmicos
-- [ ] Suporte a múltiplos idiomas
-
-## Contribuição
-
-1. Fork o projeto
-2. Crie uma branch para sua feature
-3. Commit suas mudanças
-4. Push para a branch
-5. Abra um Pull Request
-
-## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
-
-## Contato
-
-Para dúvidas técnicas ou suporte, abra uma issue no repositório.
