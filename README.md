@@ -26,13 +26,10 @@
 ![Stats](https://github-readme-stats.vercel.app/api?username=Murillou4&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Murillou4&layout=compact)
 
-*Essas paradas são dinâmicas e impressionam na lata* :contentReference[oaicite:1]{index=1}.
-
 ---
 
 ###  Mostrando atividade real:
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Murillou4)
-*(Esse widget mostra consistência — contribui; cresce)* :contentReference[oaicite:2]{index=2}.
 
 ---
 
