@@ -22,13 +22,6 @@
 
 ---
 
-###  Projetos que valem seu tempo:
-- [Flutter App da RPC](https://github.com/Murillou4/flutter-rpc) — integração com Firebase, robusto e prático.  
-- [Bot de suporte em Dart](https://github.com/Murillou4/dart-suporte-bot) — automatizando suporte porque tempo é grana.  
-- *(Insira outros projetos case na veia — só o que carrega peso, nada de enrolação).*
-
----
-
 ###  Estatísticas que falam mais que discurso:
 ![Stats](https://github-readme-stats.vercel.app/api?username=Murillou4&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Murillou4&layout=compact)
@@ -43,14 +36,10 @@
 
 ---
 
-###  Sem respirar parado:
-*(Aqui dá pra botar GIFs, blog, músicas, contator de visitas, deploy do perfil, o que quiser — basta conectar ações no GitHub)* :contentReference[oaicite:3]{index=3}.
-
----
 
 ###  Abrindo canal pra quem merece:
--  LinkedIn — (coloca o link)  
--  Porta aberta no email: `murillou4@seuemail.com`
+-  LinkedIn — https://www.linkedin.com/in/murillo-castro-oliveira-3556b1235/
+-  Porta aberta no email: `murillo003@hotmail.com`
 
 ---
 
