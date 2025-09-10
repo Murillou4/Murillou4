@@ -1,7 +1,7 @@
 <!-- Banner ou arte ASCII estilo sem medo -->
 #  Se liga quem chegou: **Murillou4** — FullStack Developer com foco sólido em backend.
 
-###  Eu faço o que o mercado menos espera:
+###  Oque eu faço:
 - Desenvolvedor FullStack - Reflow.
 - Dois anos domando **Flutter** e **Dart**, agora subindo o backend com ambição.
 - Atacando com **C#**, **TypeScript**, **NextJS** e **.NET** — tudo na marra, sem desculpas.
