@@ -1,49 +1,59 @@
-<!-- pode rodar um banner ou arte ASCII aqui -->
-#  Opa, tu caiu no repositório do **Murillou4** — e não vai sair indiferente.
+<!-- Banner ou arte ASCII estilo sem medo -->
+#  Se liga quem chegou: **Murillou4** — FullStack Developer com foco sólido em backend.
 
-###  Quem diabos é esse cara?
--  Suporte técnico no **TRT18**, dev por hobby e dev batch por vocação.
--  Dois anos de Flutter na veia, agora mergulhando no backend com **Dart**.
--  Em busca de outros venenos: **JavaScript**, **Java**, **C++** — pra aprender na marra.
+###  Eu faço o que o mercado menos espera:
+- Desenvolvedor FullStack - Reflow.
+- Dois anos domando **Flutter** e **Dart**, agora subindo o backend com ambição.
+- Atacando com **C#**, **TypeScript**, **NextJS** e **.NET** — tudo na marra, sem desculpas.
+- Também carrego as velhas armas: **JavaScript**, **Java**, **C++** — e tô pronto pra o que vier.
 
 ---
 
-###  Ferramentas que pego pesado:
+###  Tecnologias que curto ter no histórico:
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&style=for-the-badge)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&style=for-the-badge)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&style=for-the-badge)
+![NextJS](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&style=for-the-badge)
+![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&style=for-the-badge)
 
 ---
 
-###  Projetos que não me dão vergonha:
-- [Flutter App da RPC](https://github.com/Murillou4/flutter-rpc) — app prático de integração com backend Firebase.  
-- [Bot de suporte em Dart](https://github.com/Murillou4/dart-suporte-bot) — agilizando atendimento, porque preguiça de resposta manual dá prejuízo.  
-- *se tiver algo mais, coloque aqui — mas só o que gabaritar.*
+###  Projetos que valem seu tempo:
+- [Flutter App da RPC](https://github.com/Murillou4/flutter-rpc) — integração com Firebase, robusto e prático.  
+- [Bot de suporte em Dart](https://github.com/Murillou4/dart-suporte-bot) — automatizando suporte porque tempo é grana.  
+- *(Insira outros projetos case na veia — só o que carrega peso, nada de enrolação).*
 
 ---
 
-###  Métricas que mostram na lata:
+###  Estatísticas que falam mais que discurso:
 ![Stats](https://github-readme-stats.vercel.app/api?username=Murillou4&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Murillou4&layout=compact)
 
-*(Spoiler: vai mostrar que você manja das paradas e está presente.)*
+*Essas paradas são dinâmicas e impressionam na lata* :contentReference[oaicite:1]{index=1}.
 
 ---
 
-###  Mantendo o perfil atualizado, sem enrolação:
-<!-- Aqui dá pra colocar GIFs, links pro blog, contadores de visitas, playlists… usa o que quiser da lista lá em cima -->
+###  Mostrando atividade real:
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Murillou4)
+*(Esse widget mostra consistência — contribui; cresce)* :contentReference[oaicite:2]{index=2}.
 
 ---
 
-###  Fala comigo:
--  Twitter: [@Murillou4](https://twitter.com/Murillou4)  
--  LinkedIn: [Murillo] (coloca o link aqui!)  
--  Ou manda um email esperto pra: `murillou4@seuemail.com`
+###  Sem respirar parado:
+*(Aqui dá pra botar GIFs, blog, músicas, contator de visitas, deploy do perfil, o que quiser — basta conectar ações no GitHub)* :contentReference[oaicite:3]{index=3}.
 
 ---
 
-**Resumo?**  
-Você não veio aqui por acaso. Tá vendo o que faço, como penso, e que não me contento em ficar no marasmo. É só apertar o follow ou mandar um “manda ver” que tá valendo.
+###  Abrindo canal pra quem merece:
+-  LinkedIn — (coloca o link)  
+-  Porta aberta no email: `murillou4@seuemail.com`
+
+---
+
+###  Resumo sem floreios:
+Você não veio aqui por acidente. Tá vendo a bagagem técnica, visão de futuro, e que eu tô ativo, dinâmico e pronto pra próxima. Se quiser um “Bora”, você já sabe onde me achar.
 
